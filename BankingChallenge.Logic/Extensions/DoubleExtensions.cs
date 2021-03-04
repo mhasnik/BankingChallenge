@@ -7,8 +7,7 @@ namespace BankingChallenge.Logic.Extensions
         public static decimal ToDecimalWithPrecision5(this double number)
         {
             const int precisionMultiplier = 100_000;
-            return (decimal) Math.Round(number * precisionMultiplier, MidpointRounding.ToEven) /
-                   precisionMultiplier;
+            return (decimal)Math.Round(number * precisionMultiplier, MidpointRounding.ToEven) / precisionMultiplier;
         }
     }
 }
