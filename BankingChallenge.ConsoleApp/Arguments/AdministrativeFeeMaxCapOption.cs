@@ -7,7 +7,7 @@ namespace BankingChallenge.ConsoleApp.Arguments
         public AdministrativeFeeMaxCapOption()
             : base(
                 new[] { "--administrative-fee-max-cap", "-c" },
-                () => DefaultValues.AdministrativeFeeMaxCap,
+                () => DefaultConfigValues.AdministrativeFeeMaxCap,
                 "Maximum limit of administrative fee"
             )
         { }

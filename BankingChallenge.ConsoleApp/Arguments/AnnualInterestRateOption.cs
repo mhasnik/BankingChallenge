@@ -7,7 +7,7 @@ namespace BankingChallenge.ConsoleApp.Arguments
         public AnnualInterestRateOption()
             : base(
                 new[] {"--annual-interest-rate", "-r"},
-                () => DefaultValues.AnnualInterestRate,
+                () => DefaultConfigValues.AnnualInterestRate,
                 "Loan annual interest rate in percent"
             )
         { }

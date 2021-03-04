@@ -8,7 +8,7 @@ namespace BankingChallenge.ConsoleApp.Arguments
         public PaymentIntervalOption()
             : base(
                 new[] {"--payment-interval", "-i"},
-                () => DefaultValues.PaymentInterval,
+                () => DefaultConfigValues.PaymentInterval,
                 "Intervals between single payments"
             )
         { }

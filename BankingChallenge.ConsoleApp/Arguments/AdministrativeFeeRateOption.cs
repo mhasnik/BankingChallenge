@@ -7,7 +7,7 @@ namespace BankingChallenge.ConsoleApp.Arguments
         public AdministrativeFeeRateOption()
             : base(
                 new[] {"--administrative-fee-rate", "-f"},
-                () => DefaultValues.AdministrativeFeeRate,
+                () => DefaultConfigValues.AdministrativeFeeRate,
                 "Percent rate of administrative fee"
             )
         { }
